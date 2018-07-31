@@ -39,13 +39,14 @@ Postmortem templates can help a team cover the important areas efficiently.
 
 Postmortem templates can include:
 
-  * Stakeholders: who is involved, such as users, employees, partners, specific people, etc.
+  * Participants a.k.a. Px: who is involved, such as users, employees, partners, specific people, etc.
 
-  * Symptoms: what is going wrong on the surface, such as the users' perspectives, or triggers, or alerts, etc.
+  * Symptoms a.k.a. Sx: what is going wrong on the surface, such as the users' perspectives, or triggers, or alerts, etc.
 
-  * History: any background information that is relevant, such as prior similar issues, or reports, or references, etc.
+  * History a.k.a. Hx: any background information that is relevant, such as prior similar issues, or reports, or references, etc.
 
-  * Diagnosis: what is going wrong under the surface, such as the root causes, or cascading causes, etc. 
+  * Diagnosis a.k.a. Dx: what is going wrong under the surface, such as the root causes, or cascading causes, etc. 
 
-  * Treatment: what we're doing to make it better, such as action items, to do lists, mitigations, etc. 
-
+  * Fracture a.k.a. Fx: what's broken, such as a failed part, or crashed application, or stuck process, etc. 
+  
+  * Treatment a.k.a. Tx: what we're doing to make it better, such as action items, to do lists, mitigations, etc. 
