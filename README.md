@@ -3,6 +3,7 @@
 Issues can be bug reports, trouble tickets, programmer postmortems, group restrospectives, etc.; this page describes how our team uses issues as a way to improve communication and success.
 
 Contents:
+* [What is an issue?](#what-is-an-issue)
 * [Issue templates](#issue-templates)
 * [Postmortem triggers](#postmortem-triggers)
 * [Blameless postmortems](#blameless-postmortems)
@@ -22,12 +23,12 @@ For our teams the word "issue" is a generic catch all that includes for example:
 * A use case in a project plan
 * A user email that we want to handle
 * A feedback comment that we want to handle
-* Etc.
+* etc.
 
 
-## Issue templates
+## Issue template
 
-Issue templates can help a team cover important areas efficiently and succinctly.
+An issue template can help a team cover important areas efficiently and succinctly.
 
 Our issue template uses:
 
