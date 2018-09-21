@@ -4,6 +4,8 @@ Issues can be bug reports, trouble tickets, programmer postmortems, group restro
 
 Contents:
 * [What is an issue?](#what-is-an-issue)
+* [Public or private?](#public-or-private)
+* [Score: priority, severity, magnitude](#score-priority-severity-magnitude)
 * [Issue templates](#issue-templates)
 * [Postmortem triggers](#postmortem-triggers)
 * [Blameless postmortems](#blameless-postmortems)
@@ -15,16 +17,58 @@ Our issue workflow includes knowledge-sharing at every stage.
 
 ## What is an issue?
 
-For our teams the word "issue" is a generic catch all that includes for example:
+For our teams the word "issue" is a generic term such as:
+
+Examples:
 
 * A bug report
-* A ticket in a tracking tool
-* A task in a to-do list
-* A use case in a project plan
-* A user email that we want to handle
-* A feedback comment that we want to handle
-* etc.
+* A customer complaint
+* A security alert
 
+
+## Public or private?
+
+For many of our projects we use a public issue and a private issue.
+
+For a public issue:
+
+* Emphasize summarization.
+* Highlight actionable information.
+* Omit/redact all confidential information.
+
+* Emphasize thoroughness.
+* Highlight exploratory information; this helps find patterns across issues.
+* Include confidential information as approriate.
+
+
+## Score: priority, severity, magnitude
+
+We score each issue in ways that help us compare them, to know what we want to work on. There are a variety of ways to score, and here are some we've seen work well in practice.
+
+Score by a priority rank:
+
+  * Example: "Priority 1" means high priority, "Priority 2" means medium priority, "Priority 3" means low priority.
+
+  * An analogy is a todo list, where priority 1 is your highest priority.
+
+  * Pros: compatible with typical bug trackers.
+  
+Score by a severity rating:
+
+  * Example: "Severity 1" means least, "Severity 5" means most.
+
+  * An analogy is movie ratings that use 1 star to 5 star.
+
+  * Pros: easy for everyone to understand, especially visually using stars.
+
+Score by magnitude scale:
+
+  * Example: magnitude 1 is trivial impoact, 9 is extreme impact.
+
+  * An analogy is the earthquake Richter scale.
+
+  * Pros: a suitably wide range, and a well-known analogy.
+  
 
 ## Issue template
 
