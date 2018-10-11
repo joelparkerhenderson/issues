@@ -3,16 +3,7 @@
 Issues can be bug reports, trouble tickets, programmer postmortems, group restrospectives, etc.; this page describes how our team uses issues as a way to improve communication and success.
 
 Contents:
-* [What is an issue?](#what-is-an-issue)
-* [Public or private?](#public-or-private)
-* [Score: priority, severity, magnitude](#score-priority-severity-magnitude)
-* [Issue templates](#issue-templates)
-* [Postmortem triggers](#postmortem-triggers)
-* [Blameless postmortems](#blameless-postmortems)
-
-We value collaboration, communication, and continuous improvement. 
-
-Our issue workflow includes knowledge-sharing at every stage. 
+* []()
 
 
 ## What is an issue?
@@ -63,7 +54,7 @@ Score by a severity rating:
 
 Score by magnitude scale:
 
-  * Example: magnitude 1 is trivial impoact, 9 is extreme impact.
+  * Example: magnitude 1 is trivial impact, 9 is extreme impact.
 
   * An analogy is the earthquake Richter scale.
 
@@ -111,3 +102,8 @@ Postmortem triggers can include:
 Blameless postmortems focus on the incident's symptoms, causes, and treatments, rather than focus on blaming a person or a group of people.
 
 Blameless postmortems start by affirming that everyone has good intentions, and does their best they can at the time, with the information they have at the time.
+
+# Posts about issues, incidents, postmortems, etc.
+
+* [Post-Mortem Meeting Template and Tips by Brett Harned at TeamGannt on 2017-09-05](https://www.teamgantt.com/blog/post-mortem-meeting-template-and-tips)
+
