@@ -1,6 +1,6 @@
 # Issues
 
-Issues come in many flavors, for example feature requests, bug reports, customer complaints, security alerts, team restrospectives, etc.; this page describes how our team uses issues, and how we communicate about them.
+Issues come in many flavors, for example feature requests, bug reports, customer complaints, security alerts, team retrospectives, etc.; this page describes how our team uses issues, and how we communicate about them.
 
 * []()
 
