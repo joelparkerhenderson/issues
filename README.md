@@ -12,6 +12,7 @@ For our teams the word "issue" is a generic term such as:
 
 Examples:
 
+* A feature request
 * A bug report
 * A customer complaint
 * A security alert
@@ -32,9 +33,12 @@ For a public issue:
 * Include confidential information as approriate.
 
 
-## Score: priority, severity, magnitude
+## Score
 
 We score each issue in ways that help us compare them, to know what we want to work on. There are a variety of ways to score, and here are some we've seen work well in practice.
+
+
+### Score by priority
 
 Score by a priority rank:
 
@@ -43,7 +47,10 @@ Score by a priority rank:
   * An analogy is a todo list, where priority 1 is your highest priority.
 
   * Pros: compatible with typical bug trackers.
-  
+
+
+### Score by severity
+
 Score by a severity rating:
 
   * Example: "Severity 1" means least, "Severity 5" means most.
@@ -51,6 +58,9 @@ Score by a severity rating:
   * An analogy is movie ratings that use 1 star to 5 star.
 
   * Pros: easy for everyone to understand, especially visually using stars.
+
+  
+### Score by magnitude
 
 Score by magnitude scale:
 
@@ -61,6 +71,19 @@ Score by magnitude scale:
   * Pros: a suitably wide range, and a well-known analogy.
   
 
+### Score by category
+
+Score by category mnemonic MoSCoW which stands for "must have", "should have", "could have", "would have".
+
+  * Example: Each "must have" issue is critical to the current delivery in order for it to be a success, and if even one "must have" issue is not complete, then the delivery is a failure.
+
+  * An analogy is a conversation about something you want.
+
+  * Pros: the plain English wording of the categories has value in getting stakeholders to better understand the impact of setting a priority, compared to alternatives like High, Medium, Low.
+  
+  * Notes: MoSCoW traditionally uses "won't have" not "would have"; we choose to use "would have" because in our experience with stakeholders, the "would have" wording tends to be clearer that an issue is still possible to be included in a release, and also is still possible to be included in a future release.
+
+ 
 ## Issue template
 
 An issue template can help a team cover important areas efficiently and succinctly.
