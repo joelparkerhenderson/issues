@@ -86,7 +86,7 @@ Score by category mnemonic MoSCoW which stands for "must have", "should have", "
 
 ## Priority rank examples
 
-Priority rank examples that are typical in many popular techology projects:
+Priority rank examples that are typical in many popular technology projects:
 
 * Priority 0 = Immediate
 * Priority 1 = Must have
