@@ -173,17 +173,19 @@ An issue template can help a team cover important areas efficiently and succinct
 
 Our issue template uses:
 
-  * Participants a.k.a. Px: who is involved, such as users, employees, partners, specific people, etc.
-
-  * Symptoms a.k.a. Sx: what is going wrong on the surface, such as the users' perspectives, or triggers, or alerts, etc.
-
-  * History a.k.a. Hx: relevant background information, such as prior similar issues, or reports, or references, etc.
-
-  * Diagnosis a.k.a. Dx: what is going wrong under the surface, such as the root causes, or cascading causes, etc. 
-
-  * Fracture a.k.a. Fx: what's broken, such as a failed part, or crashed application, or stuck process, etc. 
+  * Chief Complaint (CC): summarize the problem as reported by the affected person.
   
-  * Treatment a.k.a. Tx: what we're doing to make it better, such as action items, to do lists, mitigations, etc. 
+  * Participants (Px): who is involved, such as users, employees, partners, specific people, etc.
+
+  * Symptoms (Sx): what is going wrong on the surface, such as the users' perspectives, or triggers, or alerts, etc.
+
+  * History (Hx): relevant background information, such as prior similar issues, or reports, or references, etc.
+
+  * Diagnosis (Dx): what is going wrong under the surface, such as the root causes, or cascading causes, etc. 
+
+  * Fracture (Fx): what's broken, such as a failed part, or crashed application, or stuck process, etc. 
+  
+  * Treatment (Tx): what we're doing to make it better, such as action items, to do lists, mitigations, etc. 
 
 Our issue template is this file: [TEMPLATE.md](TEMPLATE.md)
 

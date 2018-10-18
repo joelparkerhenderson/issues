@@ -1,9 +1,18 @@
 # Issue Title
 
+## Score
+
+Any score information, such as priority, severity, magnitude, category.
+
+
+## Chief Complaint (CC)
+
+Summarize the problem as reported by the affected person.
+
 
 ## Participants (Px)
 
-Who is involved, such as users, employees, partners, specific people, etc.
+Who is involved, such as the discoverer of the issue, affected users, employees, partners, specific people, who to inform about the progress, etc.
 
 
 ## Symptoms (Sx)
