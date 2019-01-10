@@ -39,7 +39,7 @@ We score each issue in ways that help us compare them, to know what we want to w
 
 Score by a priority rank:
 
-  * Example: "Priority 1" means high priority, "Priority 2" means medium priority, "Priority 3" means low priority.
+  * Example: "Priority 1" means do this first, "Priority 2" means do this second, "Priority 3" means do this third, etc.
 
   * An analogy is a todo list, where priority 1 is your highest priority.
 
@@ -48,20 +48,20 @@ Score by a priority rank:
 
 ### Score by severity
 
-Score by a severity rating:
+Score by a severity scale:
 
   * Example: "Severity 1" means minimum impact, "Severity 5" means maximum impact.
 
-  * An analogy is severe weather warnings, where hurricanes have a severity score ranging from 1 (meaning minimum impact) to 5 (meaning maximum impact). Another analogy is the earthquake Richter scale ranging from magnitude 1 (meaning trivial impact) to 9 (meaning extreme impact).
+  * An analogy is a severe weather warning scale, which ranges from 1 (minimum impact) to 5 (maximum impact). Another analogy is an earthquake Richter scale, which ranges from magnitude 1 (trivial damage) to 9 (extreme damage). Another analogy is a hospital pain numerical rating scale, which ranges from 0 (hurts the least) to 10 (hurts the most).
 
-  * Pros: easy for everyone to understand, especially visually using stars.
+  * Pros: easy for everyone to understand, and can use many real world analogies.
 
 
 ### Score by category
 
-Score by category mnemonic MoSCoW which stands for "must have", "should have", "could have", "would have".
+Score by a category name:
 
-  * Example: Each "must have" issue is critical to the current delivery in order for it to be a success, and if even one "must have" issue is not complete, then the delivery is a failure.
+  * Example: The category mnemonic "MoSCoW" which stands for "must have", "should have", "could have", "would have". Each "must have" issue is critical to the current delivery in order for it to be a success, and if even one "must have" issue is not complete, then the delivery is a failure.
 
   * An analogy is a conversation about something you want.
 
