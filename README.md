@@ -50,23 +50,12 @@ Score by a priority rank:
 
 Score by a severity rating:
 
-  * Example: "Severity 1" means least, "Severity 5" means most.
+  * Example: "Severity 1" means minimum impact, "Severity 5" means maximum impact.
 
-  * An analogy is movie ratings that use 1 star to 5 star.
+  * An analogy is severe weather warnings, where hurricanes have a severity score ranging from 1 (meaning minimum impact) to 5 (meaning maximum impact). Another analogy is the earthquake Richter scale ranging from magnitude 1 (meaning trivial impact) to 9 (meaning extreme impact).
 
   * Pros: easy for everyone to understand, especially visually using stars.
 
-  
-### Score by magnitude
-
-Score by magnitude scale:
-
-  * Example: magnitude 1 is trivial impact, 9 is extreme impact.
-
-  * An analogy is the earthquake Richter scale.
-
-  * Pros: a suitably wide range, and a well-known analogy.
-  
 
 ### Score by category
 
