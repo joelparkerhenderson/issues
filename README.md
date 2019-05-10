@@ -66,7 +66,7 @@ Score by a category name:
   * An analogy is a conversation about something you want.
 
   * Pros: the plain English wording of the categories has value in getting stakeholders to better understand the impact of setting a priority, compared to alternatives like High, Medium, Low.
-  
+
   * Notes: MoSCoW traditionally uses "won't have" not "would have"; we choose to use "would have" because in our experience with stakeholders, the "would have" wording tends to be clearer that an issue is still possible to be included in a release, and also is still possible to be included in a future release.
 
 
@@ -77,18 +77,20 @@ An issue template can help a team cover important areas efficiently and succinct
 Our issue template uses:
 
   * Chief Complaint (CC): summarize the problem as reported by the affected person.
-  
-  * Participants (Px): who is involved, such as users, employees, partners, specific people, etc.
+
+  * Participants (Pt): who is involved, such as users, employees, partners, specific people, etc.
 
   * Symptoms (Sx): what is going wrong on the surface, such as the users' perspectives, or triggers, or alerts, etc.
 
   * History (Hx): relevant background information, such as prior similar issues, or reports, or references, etc.
 
-  * Diagnosis (Dx): what is going wrong under the surface, such as the root causes, or cascading causes, etc. 
+  * Diagnosis (Dx): what is going wrong under the surface, such as the root causes, or cascading causes, etc.
 
-  * Fracture (Fx): what's broken, such as a failed part, or crashed application, or stuck process, etc. 
-  
-  * Treatment (Tx): what we're doing to make it better, such as action items, to do lists, mitigations, etc. 
+  * Prognosis (Px): what is the prediction, such as a forecast, potential outcomes, changes in effects, etc.
+
+  * Fracture (Fx): what is broken, such as a failed part, or crashed application, or stuck process, etc.
+
+  * Treatment (Tx): what we're doing to make it better, such as action items, to do lists, mitigations, etc.
 
 Our issue template is this file: [TEMPLATE.md](TEMPLATE.md)
 
@@ -100,9 +102,9 @@ Postmortem triggers can make it easy and fast for a team to know when to do a po
 Postmortem triggers can include:
 
  * Any user-visible issues, such as unexpected outages or errors.
-  
+
  * Any on-demand intervention, such as by engineers or executives.
- 
+
  * Any manual incident discovery, because this shows we need monitoring.
 
  * Any request by a stakeholder for a postmortem, or review, or mitigation.
@@ -117,4 +119,3 @@ Blameless postmortems start by affirming that everyone has good intentions, and 
 # Posts about issues, incidents, postmortems, etc.
 
 * [Post-Mortem Meeting Template and Tips by Brett Harned at TeamGannt on 2017-09-05](https://www.teamgantt.com/blog/post-mortem-meeting-template-and-tips)
-
