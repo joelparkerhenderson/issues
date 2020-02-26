@@ -22,11 +22,17 @@ For many of our projects we use a public issue and a private issue.
 For a public issue:
 
 * Emphasize summarization.
+
 * Highlight actionable information.
+
 * Omit/redact all confidential information.
 
+For a private issue:
+
 * Emphasize thoroughness.
+
 * Highlight exploratory information; this helps find patterns across issues.
+
 * Include confidential information as approriate.
 
 
