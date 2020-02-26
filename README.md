@@ -12,8 +12,8 @@ Issues come in many flavors, for example feature requests, bug reports, customer
 * [Score discussion](#score-discussion)
   * [Score priority 0 (PO)](#score-priority-0-po)
   * [Score severity 0 (S0)](#score-severity-0-s0)
-  * [Score priority vs severity](#score-priority-vs-severity)
-  * [Score frequency (F0)](#score-frequency-f0)
+  * [Score frequency 0 (F0)](#score-frequency-0-f0)
+  * [Score priority vs severity vs frequency](#score-priority-vs-severity-vs-frequency)
 * [Issue template](#issue-template)
 * [Postmortem triggers](#postmortem-triggers)
 * [Blameless postmortems](#blameless-postmortems)
@@ -106,12 +106,18 @@ Score by a combination of priority and/or severity and/or category and/or tag:
 
 ## Score discussion
 
+This section has score discussion notes. The quotes are excerpted, synthesized, and sometimes anonymized.
+
 
 ### Score priority 0 (PO)
 
-Some teams choose to score by priority, and use Priority 0 (P0) as the most-important priority. For some teams, Priority 0 means emergency drop-everything else immediately. For some teams, Priority 0 means a release blocker that must be fixed before the next release delivery.
+Some teams choose to score by priority, and use Priority 0 (P0) as the most-important priority.
 
-Our opinion is don't use P0 because many stakeholders don't understand it easily, and it does not work at all with ordinal analogies - people do say "This is my first priority" and do not say "This is my zeroth priority".
+* For some teams, Priority 0 means emergency drop-everything else immediately.
+  
+* For some teams, Priority 0 means a release blocker that must be fixed before the next release delivery.
+
+Our opinion is don't use P0 because many stakeholders don't understand it easily, and it does not work at all with ordinal analogies - people do say "This is my first priority" but do not say "This is my zeroth priority". 
 
 
 ### Score severity 0 (S0)
@@ -121,9 +127,30 @@ Some teams choose to score by severity, and use Severity 0 (S0) as the most-impa
 Our opinion is that S0 is the opposite of analogies to real-world severity systems, such as the weather storm severity score, earthquake damage severity score, and medical pain severity score.
 
 
-### Score priority vs severity
+### Score frequency 0 (F0)
 
-Some teams distinguish priority and severity this way: the priority is set by the product manager's work plan for responding to an issue, wherease severity is a assessment of an issue's impact meaning the harm done.
+Some teams score issues in terms of frequency, and use Frequency 0 (F0) as the most-often frequency, meaning the issue happens very-often and/or to very-many users.
+
+Quotes:
+
+* "Usually the other orthogonal assessment in addition to severity is frequency. If the bug is unlikely to be seen during regular use, then even if severity is high, the priority might be lowered. This is usually how risk is managed in my experience."
+
+* "A developer or tester might be good at specifying how severe a bug is, but doesn't know if everyone hits the issue or just some users hit the issue. The frequency is a different dimension. The severity can then be multiplied by frequency to calculate the priority."
+
+* "I think the formula should be: severity * frequency - ease of workaround = priority. So if any of those measures change (e.g. an easy workaround is discovered, or it's determined that the web page that is crashing is also almost never viewed) then the priority should be adjusted. Having just severity without a measure of 'how many people does this impact?' and 'just how badly does this impact them?' seems like it's missing part of the picture."
+
+Our opinion is this approach sounds good, yet we've never seen a team use it much in practice and stick to it. We have seen teams that use this very well within the issue notes.
+
+
+### Score priority vs severity vs frequency
+
+Some teams distinguish priority and severity and frequency this way: 
+
+  * the priority is set by the product manager's work plan for responding to an issue
+  
+  * the severity is a assessment of an issue's impact to one user based on the harm done.
+
+  * the frequency is a measure of how often any user is affected.
 
 Opinions:
 
@@ -142,21 +169,6 @@ Quotes:
   * "Google's internal bug tracker has both priority and severity. P0 S0 is most urgent. P2 S2 is standard. P4 S4 is least urgent. It's kind of a running joke that severity is meaningless (because it isn't meaningfully different from priority). On my team for example we leave it at its default value and ignore it completely."
 
   * "We use a single priority field. The tester uses a heuristic to assign an initial priority (e.g., crashes are P1, cosmetic are P5). The developer uses this to prioritize which bugs to triage first, and when they've determined a new priority based on customer experience combined with app behaviour, they replace the old priority score with the new priority score. If we really needed to go back and check what the tester assigned, then we use the "history" or "revision" feature in our bug tracking app."
-
-
-### Score frequency (F0)
-
-Some teams score issues in terms of frequency, and use Frequency 0 (F0) as the most-often frequency, meaning the issue happens very-often and/or to very-many users.
-
-Quotes:
-
-* "Usually the other orthogonal assessment in addition to severity is frequency. If the bug is unlikely to be seen during regular use, then even if severity is high, the priority might be lowered. This is usually how risk is managed in my experience."
-
-* "A developer or tester might be good at specifying how severe a bug is, but doesn't know if everyone hits the issue or just some users hit the issue. The frequency is a different dimension. The severity can then be multiplied by frequency to calculate the priority."
-
-* "I think the formula should be: severity * frequency - ease of workaround = priority. So if any of those measures change (e.g. an easy workaround is discovered, or it's determined that the web page that is crashing is also almost never viewed) then the priority should be adjusted. Having just severity without a measure of 'how many people does this impact?' and 'just how badly does this impact them?' seems like it's missing part of the picture."
-
-Our opinion is this approach sounds good, yet we've never seen a team use it much in practice and stick to it. We have seen teams that use this very well within the issue notes.
 
 
 ## Issue template
