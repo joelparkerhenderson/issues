@@ -85,7 +85,7 @@ Score by a severity scale:
 
 Score by a category name:
 
-  * Example: The category mnemonic "MoSCoW" which we describe as "must have", "should have", "could have", "would have". Each "must have" issue is critical to the current delivery in order for it to be a success, and if even one "must have" issue is not complete, then the delivery is a failure. We like to use the phrase "would have" (instead of the usual "won't have") because in our experience with stakeholders, using "would have" wording shows that an issue is still possible to be included in a release and/or roadmap.
+  * Example: The category mnemonic "MoSCoW" which we describe as "must do", "should do", "could do", "would do". Each "must do" issue is critical to the current delivery in order for it to be a success, and if even one "must do" issue is not complete, then the delivery is a failure. We like to use the phrase "would do" (instead of the usual "won't have") because in our experience with stakeholders, using "would do" wording is good for prompting the issue stakeholders to say "would do if X were different".
 
   * An analogy is a conversation about something you want.
 
