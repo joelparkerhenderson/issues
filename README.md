@@ -2,6 +2,22 @@
 
 Issues come in many flavors, for example feature requests, bug reports, customer complaints, security alerts, team retrospectives, etc.; this page describes how our team uses issues, and how we communicate about them.
 
+* [What is an issue?](#what-is-an-issue)
+* [Public or private?](#public-or-private)
+* [Score](#score)
+  * [Score by priority](#score-by-priority)
+  * [Score by severity](#score-by-severity)
+  * [Score by category](#score-by-category)
+  * [Score by combination](#score-by-combination)
+* [Score discussion](#score-discussion)
+  * [Score priority 0 (PO)](#score-priority-0-po)
+  * [Score severity 0 (S0)](#score-severity-0-s0)
+  * [Score priority vs severity](#score-priority-vs-severity)
+  * [Score frequency (F0)](#score-frequency-f0)
+* [Issue template](#issue-template)
+* [Postmortem triggers](#postmortem-triggers)
+* [Blameless postmortems](#blameless-postmortems)
+
 
 ## What is an issue?
 
