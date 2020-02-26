@@ -2,6 +2,7 @@
 
 Issues come in many flavors, for example feature requests, bug reports, customer complaints, security alerts, team retrospectives, etc.; this page describes how our team uses issues, and how we communicate about them.
 
+
 ## What is an issue?
 
 For our teams the word "issue" is a generic term such as:
@@ -85,6 +86,61 @@ Score by a combination of priority and/or severity and/or category and/or tag:
 * The programmer may score this issue as Severity 1 meaning the software impact is not at all severe.
 
 * The product manager may score this issue as Category "could have" meaning the app could have the issue fixed or not because the issue doesn't actually affect the usability of the software.
+
+
+## Score discussion
+
+
+### Score priority 0 (PO)
+
+Some teams choose to score by priority, and use Priority 0 (P0) as the most-important priority. For some teams, Priority 0 means emergency drop-everything else immediately. For some teams, Priority 0 means a release blocker that must be fixed before the next release delivery.
+
+Our opinion is don't use P0 because many stakeholders don't understand it easily, and it does not work at all with ordinal analogies - people do say "This is my first priority" and do not say "This is my zeroth priority".
+
+
+### Score severity 0 (S0)
+
+Some teams choose to score by severity, and use Severity 0 (S0) as the most-impactful severity. 
+
+Our opinion is that S0 is the opposite of analogies to real-world severity systems, such as the weather storm severity score, earthquake damage severity score, and medical pain severity score.
+
+
+### Score priority vs severity
+
+Some teams distinguish priority and severity this way: the priority is set by the product manager's work plan for responding to an issue, wherease severity is a assessment of an issue's impact meaning the harm done.
+
+Opinions:
+
+  * "The QA engineer sets the severity during the initial investigation based on technical criteria. This is then one of the data points that the product manager uses during triage to set the priority, which is the controlling value from that point in the process onward."
+
+  * "One user sometimes suffers a total crash, which then loses all their work, which makes them angry. The user would score the issue as highest severity. But if it's just one user experiencing the issue, and it's intermittent, and the user has a workaround such as saving more often, then the product manager would score the issue as low priority."
+
+  * "Severity is how the reporter sees the problem: if it interferes with their particular use case, it's of the highest severity. Priority is how the project management team sees the bug: highest priority bugs are there because of the most valuable vocal complainers such as high-paying customers, an inconvenienced CEO, etc. Don't use the severity of the bug to rank the priority, because they're not strongly correlated."
+
+ Our opinion is this approach sounds great in theory yet we've never seen a team use it much in practice - what we've seen happen is that a team decides to try this, then focuses solely on the priority (not severity) because the priority determines work order.
+  
+Quotes:
+
+  * "My experience with priority and severity is that, while the distinction may exist academically, the reality is that most people don't understand it. The result being that the words are so frequently misused that, in practice, they are indistinguishable dimensions."
+
+  * "Google's internal bug tracker has both priority and severity. P0 S0 is most urgent. P2 S2 is standard. P4 S4 is least urgent. It's kind of a running joke that severity is meaningless (because it isn't meaningfully different from priority). On my team for example we leave it at its default value and ignore it completely."
+
+  * "We use a single priority field. The tester uses a heuristic to assign an initial priority (e.g., crashes are P1, cosmetic are P5). The developer uses this to prioritize which bugs to triage first, and when they've determined a new priority based on customer experience combined with app behaviour, they replace the old priority score with the new priority score. If we really needed to go back and check what the tester assigned, then we use the "history" or "revision" feature in our bug tracking app."
+
+
+### Score frequency (F0)
+
+Some teams score issues in terms of frequency, and use Frequency 0 (F0) as the most-often frequency, meaning the issue happens very-often and/or to very-many users.
+
+Quotes:
+
+* "Usually the other orthogonal assessment in addition to severity is frequency. If the bug is unlikely to be seen during regular use, then even if severity is high, the priority might be lowered. This is usually how risk is managed in my experience."
+
+* "A developer or tester might be good at specifying how severe a bug is, but doesn't know if everyone hits the issue or just some users hit the issue. The frequency is a different dimension. The severity can then be multiplied by frequency to calculate the priority."
+
+* "I think the formula should be: severity * frequency - ease of workaround = priority. So if any of those measures change (e.g. an easy workaround is discovered, or it's determined that the web page that is crashing is also almost never viewed) then the priority should be adjusted. Having just severity without a measure of 'how many people does this impact?' and 'just how badly does this impact them?' seems like it's missing part of the picture."
+
+Our opinion is this approach sounds good, yet we've never seen a team use it much in practice and stick to it. We have seen teams that use this very well within the issue notes.
 
 
 ## Issue template
