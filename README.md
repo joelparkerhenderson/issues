@@ -47,33 +47,44 @@ Score by a priority rank:
 
   * Example: "Priority 1" means do this first, "Priority 2" means do this second, "Priority 3" means do this third, etc.
 
-  * An analogy is a todo list, where priority 1 is your highest priority.
+  * Analogy: a todo list where priority 1 is your highest priority.
 
-  * Pros: compatible with typical bug trackers.
+  * Pros: easy to understand what the team will work on and in what order; compatible with many bug trackers, todo list apps, and task management tools.
 
-
+ 
 ### Score by severity
 
 Score by a severity scale:
 
   * Example: "Severity 1" means minimum impact, "Severity 5" means maximum impact.
 
-  * An analogy is a severe weather warning scale, which ranges from 1 (minimum impact) to 5 (maximum impact). Another analogy is an earthquake Richter scale, which ranges from magnitude 1 (trivial damage) to 9 (extreme damage). Another analogy is a hospital pain numerical rating scale, which ranges from 0 (hurts the least) to 10 (hurts the most).
+  * Analogy: a severe weather warning scale, which ranges from 1 (minimum impact) to 5 (maximum impact), or an earthquake Richter scale, which ranges from magnitude 1 (trivial damage) to 9 (extreme damage), or a hospital pain numerical rating scale, which ranges from 0 (hurts the least) to 10 (hurts the most).
 
-  * Pros: easy for everyone to understand, and can use many real world analogies.
+  * Pros: easy to understand the impact; can use many real world analogies; different evaluators can assess severity in each of their own perspectives, independent of what to work on first.
 
 
 ### Score by category
 
 Score by a category name:
 
-  * Example: The category mnemonic "MoSCoW" which stands for "must have", "should have", "could have", "would have". Each "must have" issue is critical to the current delivery in order for it to be a success, and if even one "must have" issue is not complete, then the delivery is a failure.
+  * Example: The category mnemonic "MoSCoW" which we describe as "must have", "should have", "could have", "would have". Each "must have" issue is critical to the current delivery in order for it to be a success, and if even one "must have" issue is not complete, then the delivery is a failure. We like to use the phrase "would have" (instead of the usual "won't have") because in our experience with stakeholders, using "would have" wording shows that an issue is still possible to be included in a release and/or roadmap.
 
   * An analogy is a conversation about something you want.
 
   * Pros: the plain English wording of the categories has value in getting stakeholders to better understand the impact of setting a priority, compared to alternatives like High, Medium, Low.
 
-  * Notes: MoSCoW traditionally uses "won't have" not "would have"; we choose to use "would have" because in our experience with stakeholders, the "would have" wording tends to be clearer that an issue is still possible to be included in a release, and also is still possible to be included in a future release.
+
+### Score by combination
+
+Score by a combination of priority and/or severity and/or category and/or tag:
+
+* Example: an important customer is coming into the office in an hour to sign a contract, and the team finds a misspelling in the customer's company name on the website. 
+
+* The sales team may score this issue as Priority 1 meaning work on it first.
+
+* The programmer may score this issue as Severity 1 meaning the software impact is not at all severe.
+
+* The product manager may score this issue as Category "could have" meaning the app could have the issue fixed or not because the issue doesn't actually affect the usability of the software.
 
 
 ## Issue template
