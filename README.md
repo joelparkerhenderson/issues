@@ -8,6 +8,7 @@ Issues come in many flavors, for example feature requests, bug reports, customer
   * [Score by priority](#score-by-priority)
   * [Score by severity](#score-by-severity)
   * [Score by category](#score-by-category)
+  * [Score by frequency](#score-by-frequency)
   * [Score by combination](#score-by-combination)
 * [Score discussion](#score-discussion)
   * [Score priority 0 (PO)](#score-priority-0-po)
@@ -89,6 +90,17 @@ Score by a category name:
   * An analogy is a conversation about something you want.
 
   * Pros: the plain English wording of the categories has value in getting stakeholders to better understand the impact of setting a priority, compared to alternatives like High, Medium, Low.
+
+
+### Score by frequency
+
+Score by a frequency scale:
+
+  * Example: "Frequency 1%" means 1% of the time, users are affected, "Frequency 100%" means 100% of the time users are affected.
+
+  * Analogy: the rate at which something occurs or is repeated over a particular period of time or in a given sample.
+
+  * Pros: measures how often the issue happens; can be worded in exact ways, such as "Frequency 20 times per day"; can be binned, such as using bins of "always", "often", "sometimes", "seldom", "never".
 
 
 ### Score by combination
