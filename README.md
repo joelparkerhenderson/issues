@@ -59,7 +59,7 @@ We score each issue in ways that help us compare them, to know what we want to w
 
 ### Score by priority rank
 
-Example: "Priority 1" means do first, "Priority 2" means do second, "Priority 3" means do third, etc.
+Example: Priority 1 (do first), Priority 2 (do second), Priority 3 (do third), etc.
 
 Analogy: a to-do list, where Priority 1 is your first priority.
 
@@ -70,7 +70,7 @@ Deprecated: some teams use Priority 0 (P0) to mean emergency alert or release bl
  
 ### Score by severity of impact
 
-Example: "Severity 1" (minimal impact) up to "Severity 5" (catastrophic impact).
+Example: Severity 1 (minimal impact) to 5 (catastrophic impact).
 
 Analogy: the Saffir-Simpson Hurricane scale of 1 (minimal), 2 (moderate), 3 (extensive), 4 (extreme), 5 (catastophic).
 
@@ -81,9 +81,9 @@ Deprecated: some teams reverse the scale and use "Severity 0" (catastrophic) to 
 
 ### Score by magnitude of damage
 
-Example: "Magnitude 1" (minor damage) up to "Magnitude 10" (catastrophic damage).
+Example: Magnitude 1 (minor damage) to 10 (catastrophic damage).
 
-Analogy: the Richter earthquake scale from 1 (minor damage) to 9 (permanent total destruction).
+Analogy: the Richter earthquake scale from 1 (minor damage) to 10 (permanent total destruction).
 
 Benefits: easy to understand in terms of customer impact; can use real world analogies; good for brightness coding from light to dark; different evaluators can assess severity in each of their own perspectives, independent of what to work on first.
 
