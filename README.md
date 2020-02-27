@@ -81,9 +81,9 @@ Deprecated: some teams reverse the scale and use "Severity 0" (catastrophic) to 
 
 ### Score by magnitude of damage
 
-Example: "Magnitude 1" (trivial damage) up to "Magnitude 9" (maximum damage).
+Example: "Magnitude 1" (minor damage) up to "Magnitude 10" (catastrophic damage).
 
-Analogy: the Richter earthquake scale from 1 (trival damage) to 9 (maximum damage).
+Analogy: the Richter earthquake scale from 1 (minor damage) to 9 (permanent total destruction).
 
 Benefits: easy to understand in terms of customer impact; can use real world analogies; good for brightness coding from light to dark; different evaluators can assess severity in each of their own perspectives, independent of what to work on first.
 
