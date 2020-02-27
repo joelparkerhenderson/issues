@@ -4,6 +4,8 @@ Issues come in many flavors, for example feature requests, bug reports, customer
 
 * [What is an issue?](#what-is-an-issue)
 * [Public or private?](#public-or-private)
+  * [For a public issue](#for-a-public-issue)
+* [For a private issue](#for-a-private-issue)
 * [Score](#score)
   * [Score by priority rank](#score-by-priority-rank)
   * [Score by severity of impact](#score-by-severity-of-impact)
@@ -31,25 +33,31 @@ Examples:
 * A team retrospective
 
 
-## Public or private?
+## Public issue or private issue?
 
-For many of our projects we use a public issue and a private issue.
+For many of our projects we create a public issue and a private issue.
 
-For a public issue:
+The public issue is external-facing intended for our users, customers, promoters, etc.
 
-* Emphasize summarization.
+The private issue is internal-facing intended for our employees, contractors, partners, etc.
 
-* Highlight actionable information.
 
-* Omit/redact all confidential information.
+### For a public issue
 
-For a private issue:
+Emphasize summarization.
 
-* Emphasize thoroughness.
+Highlight actionable information.
 
-* Highlight exploratory information; this helps find patterns across issues.
+Exclude confidential information.
 
-* Include confidential information as approriate.
+
+### For a private issue
+
+Emphasize thoroughness.
+
+Highlight exploratory information because this helps discover patterns across issues.
+
+Include confidential information as approriate.
 
 
 ## Score
@@ -123,17 +131,17 @@ Example: score an issue by a combination of priority, severity, magnitude, size,
 
 Suppose an important customer is coming into the office in an hour to sign a contract, and the sales team finds a misspelling in the customer's company name on the website.
 
-* The sales team scores the issue Priority 1 meaning work on it first.
+* Sales team says Priority 1 meaning work on it first.
 
-* The product team scores the issue as Severity 1 (minimal impact) because it's just a typo and doesn't affect the product usage of other users.
+* Product team says Severity 1 (minimal impact) because a typo is trivial and doesn't affect others.
 
-* The marketing team scores the issue as Magnitude 3 (some damge) because the typo has turned up on screenshots that were printed in brochures.
+* Marketing team says Magnitude 3 (some damage) because the typo ended up on presenation collateral.
 
-* The project manager scores this issue as size "extra small" meaning the work estimate is tiny.
+* Project manager says size "small" because the work estimate is tiny.
 
-* The design team scores the issue as MoSCoW "must" because it must be fixed.
+* Design team says MoSCoW "must" because it must be fixed.
 
-* The quality assurance team scores the issue as Frequency 2% because a quality review discovered typos in 2% of customer names.
+* Quality team says Frequency 2% because inspection discovered typos in 2% of customer names.
 
 
 ## Score discussion
