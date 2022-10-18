@@ -105,6 +105,21 @@ Analogy: clothing sizes.
 Benefits: easy to understand approximately how much work needs to be done.
 
 
+### Score by level of danger
+
+Example: international regulations define five levels of failure conditions, categorized by their effects on the aircraft, crew, and passengers.
+
+Level A – Catastrophic: Failure may cause multiple fatalities, usually with loss of the airplane.
+
+Level B – Hazardous: Failure has a large negative impact on safety or performance, reduces the ability of the crew to operate the aircraft due to physical distress or a higher workload, or causes serious or fatal injuries among the passengers.
+
+Level C – Major: Failure significantly reduces the safety margin or significantly increases crew workload. May result in passenger discomfort (or even minor injuries).
+
+Level D – Minor: Failure slightly reduces the safety margin or slightly increases crew workload. Examples might include causing passenger inconvenience or a routine flight plan change.
+
+Level E – No Effect: Failure has no impact on safety, aircraft operation, or crew workload.
+
+
 ### Score by MoSCoW requirement
 
 Example: MoSCoW is a mnemonic for "must", "should", "could", "won't". A feature is "must have", "should have", "could have", "won't have".
