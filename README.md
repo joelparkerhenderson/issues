@@ -2,22 +2,23 @@
 
 Issues come in many flavors, for example feature requests, bug reports, customer complaints, security alerts, team retrospectives, etc.; this page describes how our team uses issues, and how we communicate about them.
 
-* [What is an issue?](#what-is-an-issue)
-* [Public or private?](#public-or-private)
-  * [For a public issue](#for-a-public-issue)
-* [For a private issue](#for-a-private-issue)
-* [Score](#score)
-  * [Score by priority rank](#score-by-priority-rank)
-  * [Score by severity of impact](#score-by-severity-of-impact)
-  * [Score by magnitude of damage](#score-by-magnitude-of-damage)
-  * [Score by size name](#score-by-size-name)
-  * [Score by MoSCoW requirement](#score-by-moscow-requirement)
-  * [Score by frequency rate](#score-by-frequency-rate)
-  * [Score by combination](#score-by-combination)
-* [Score discussion](#score-discussion)
-* [Issue template](#issue-template)
-* [Postmortem triggers](#postmortem-triggers)
-* [Blameless postmortems](#blameless-postmortems)
+- [What is an issue?](#what-is-an-issue)
+- [Public issue or private issue?](#public-issue-or-private-issue)
+  - [For a public issue](#for-a-public-issue)
+  - [For a private issue](#for-a-private-issue)
+- [Score](#score)
+  - [Score by priority rank](#score-by-priority-rank)
+  - [Score by severity of impact](#score-by-severity-of-impact)
+  - [Score by magnitude of damage](#score-by-magnitude-of-damage)
+  - [Score by size name](#score-by-size-name)
+  - [Score by level of danger](#score-by-level-of-danger)
+  - [Score by MoSCoW requirement](#score-by-moscow-requirement)
+  - [Score by frequency rate](#score-by-frequency-rate)
+  - [Score by combination](#score-by-combination)
+- [Score discussion](#score-discussion)
+- [Issue template](#issue-template)
+- [Postmortem triggers](#postmortem-triggers)
+- [Blameless postmortems](#blameless-postmortems)
 
 
 ## What is an issue?
@@ -193,6 +194,8 @@ Our issue template uses:
   * Participants (Pt): who is involved, such as users, employees, partners, specific people, etc.
 
   * Symptoms (Sx): what is going wrong on the surface, such as the users' perspectives, or triggers, or alerts, etc.
+ 
+  * Investigations (Ix): what is happening to research the issue, such as the steps, or results, etc.
 
   * History (Hx): relevant background information, such as prior similar issues, or reports, or references, etc.
 

@@ -20,6 +20,11 @@ Who is involved, such as the discoverer of the issue, affected users, employees,
 What is going wrong on the surface, such as the users' perspectives, or triggers, or alerts, etc.
 
 
+## Investigations (Ix)
+
+What is happening to research the issue, such as the steps, or results, etc.
+
+
 ## History (Hx)
 
 Relevant background information, such as prior similar issues, or reports, or references, etc.
