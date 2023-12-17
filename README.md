@@ -143,7 +143,7 @@ Benefits: measures how often the issue happens; can be a rate phrase such as "20
 
 ### Score by combination
 
-Example: score an issue by a combination of priority, severity, magnitude, size, MoSCoW, frequecy.
+Example: score an issue by a combination of priority, severity, magnitude, size, MoSCoW, frequency.
 
 Suppose an important customer is coming into the office in an hour to sign a contract, and the sales team finds a misspelling in the customer's company name on the website.
 
@@ -195,17 +195,17 @@ Our issue template uses:
 
   * Symptoms (Sx): what is going wrong on the surface, such as the users' perspectives, or triggers, or alerts, etc.
  
-  * Investigations (Ix): what is happening to research the issue, such as the steps, or results, etc.
+  * Fractures (Fx): what is broken, such as a failed part, or crashed application, or stuck process, etc.
 
   * History (Hx): relevant background information, such as prior similar issues, or reports, or references, etc.
 
+  * Investigations (Ix): what we're doing to research the issue, such as the steps we're taking, or tests we're trying, etc.
+
   * Diagnosis (Dx): what is going wrong under the surface, such as the root causes, or cascading causes, etc.
 
+  * Treatments (Tx): what we're doing to make it better, such as action items, to do lists, mitigations, etc.
+
   * Prognosis (Px): what is the prediction, such as a forecast, potential outcomes, changes in effects, etc.
-
-  * Fracture (Fx): what is broken, such as a failed part, or crashed application, or stuck process, etc.
-
-  * Treatment (Tx): what we're doing to make it better, such as action items, to do lists, mitigations, etc.
 
 Our issue template is this file: [TEMPLATE.md](TEMPLATE.md)
 
@@ -230,6 +230,7 @@ Postmortem triggers can include:
 Blameless postmortems focus on the incident's symptoms, causes, and treatments, rather than focus on blaming a person or a group of people.
 
 Blameless postmortems start by affirming that everyone has good intentions, and does their best they can at the time, with the information they have at the time.
+
 
 # Posts about issues, incidents, postmortems, etc.
 
