@@ -74,18 +74,18 @@ Analogy: a to-do list, where Priority 1 is your first priority.
 
 Pros: easy to understand what the team will work on and in what order; compatible with many bug trackers, todo list apps, and task management tools.
 
-Deprecated: some teams use Priority 0 (P0) to mean emergency alert or release blocker.
+Misguided: some teams use Priority 0 (P0) to mean emergency alert or release blocker.
 
  
 ### Score by severity of impact
 
 Example: Severity 1 (minimal impact) to 5 (catastrophic impact).
 
-Analogy: the Saffir-Simpson Hurricane scale of 1 (minimal), 2 (moderate), 3 (extensive), 4 (extreme), 5 (catastophic).
+Analogy: the Saffir-Simpson Hurricane scale of 1 (minimal), 2 (moderate), 3 (extensive), 4 (extreme), 5 (catastrophic).
 
 Benefits: easy to understand in terms of business impact; can use real world analogies; good for color coding from green to red; different evaluators can assess severity in each of their own perspectives, independent of what to work on first.
 
-Deprecated: some teams reverse the scale and use "Severity 0" (catastrophic) to 5 (mimimal). We do not recommend this because it's backwards.
+Misguided: some teams reverse the scale and use "Severity 0" (catastrophic) to 5 (mimimal). We do not recommend this because it's backwards.
 
 
 ### Score by magnitude of damage
@@ -123,9 +123,9 @@ Level E – No Effect: Failure has no impact on safety, aircraft operation, or c
 
 ### Score by MoSCoW requirement
 
-Example: MoSCoW is a mnemonic for "must", "should", "could", "won't". A feature is "must have", "should have", "could have", "won't have".
+Example: MoSCoW is a mnemonic for "must", "should", "could", "won't". A feature is "must have", "should have", "could have", "won't have" (or "would have").
 
-Analogy: any planning converstation when a person says "We must do this" or "We should do this".
+Analogy: any planning conversation when a person says "We must do this" or another person says "This is a nice to have".
 
 Benefits: the plain English wording of the categories is valuable in getting stakeholders to talk about issues; widespread use among user interaction experts.
 
