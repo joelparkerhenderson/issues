@@ -2,23 +2,13 @@
 
 Issues come in many flavors, for example feature requests, bug reports, customer complaints, security alerts, team retrospectives, etc.; this page describes how our team uses issues, and how we communicate about them.
 
-- [What is an issue?](#what-is-an-issue)
-- [Public issue or private issue?](#public-issue-or-private-issue)
-  - [For a public issue](#for-a-public-issue)
-  - [For a private issue](#for-a-private-issue)
-- [Score](#score)
-  - [Score by priority rank](#score-by-priority-rank)
-  - [Score by severity of impact](#score-by-severity-of-impact)
-  - [Score by magnitude of damage](#score-by-magnitude-of-damage)
-  - [Score by size name](#score-by-size-name)
-  - [Score by level of danger](#score-by-level-of-danger)
-  - [Score by MoSCoW requirement](#score-by-moscow-requirement)
-  - [Score by frequency rate](#score-by-frequency-rate)
-  - [Score by combination](#score-by-combination)
-- [Score discussion](#score-discussion)
-- [Issue template](#issue-template)
-- [Postmortem triggers](#postmortem-triggers)
-- [Blameless postmortems](#blameless-postmortems)
+* [What is an issue?](#what-is-an-issue)
+* [Public issue or private issue?](#public-issue-or-private-issue)
+* [Score](#score)
+* [Score discussion](#score-discussion)
+* [Issue template](#issue-template)
+* [Postmortem triggers](#postmortem-triggers)
+* [Blameless postmortems](#blameless-postmortems)
 
 
 ## What is an issue?
@@ -85,7 +75,7 @@ Analogy: the Saffir-Simpson Hurricane scale of 1 (minimal), 2 (moderate), 3 (ext
 
 Benefits: easy to understand in terms of business impact; can use real world analogies; good for color coding from green to red; different evaluators can assess severity in each of their own perspectives, independent of what to work on first.
 
-Misguided: some teams reverse the scale and use "Severity 0" (catastrophic) to 5 (mimimal). We do not recommend this because it's backwards.
+Misguided: some teams reverse the scale and use Severity 1 (catastrophic impact) to 5everity 5 (mimimal). We discourage this because it's reversed.
 
 
 ### Score by magnitude of damage
@@ -105,6 +95,11 @@ Analogy: clothing sizes.
 
 Benefits: easy to understand approximately how much work needs to be done.
 
+### Score by harm grade
+
+Medical practitioners use a harm grade to rank patient issues: No harm, Low harm, Moderate harm, Severe harm, Fatal.
+
+If you're interested in this score, you can read more about it searching UK NHS Learn from Patient Safety Events (LFPSE).
 
 ### Score by level of danger
 
