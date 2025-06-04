@@ -9,7 +9,7 @@ Issues come in many flavors, for example feature requests, bug reports, customer
 * [Issue template](#issue-template)
 * [Postmortem triggers](#postmortem-triggers)
 * [Blameless postmortems](#blameless-postmortems)
-
+* [Posts about issues, incidents, postmortems, and more](#posts-about-issues-incidents-postmortems-and-more)
 
 ## What is an issue?
 
@@ -23,7 +23,6 @@ Examples:
 * A security alert
 * A team retrospective
 
-
 ## Public issue or private issue?
 
 For many of our projects we create a public issue and a private issue.
@@ -31,7 +30,6 @@ For many of our projects we create a public issue and a private issue.
 The public issue is external-facing intended for our users, customers, promoters, etc.
 
 The private issue is internal-facing intended for our employees, contractors, partners, etc.
-
 
 ### For a public issue
 
@@ -41,7 +39,6 @@ Highlight actionable information.
 
 Exclude confidential information.
 
-
 ### For a private issue
 
 Emphasize thoroughness.
@@ -50,11 +47,9 @@ Highlight exploratory information because this helps discover patterns across is
 
 Include confidential information as approriate.
 
-
 ## Score
 
 We score each issue in ways that help us compare them, to know what we want to work on. There are a variety of ways to score, and here are some we've seen work well in practice.
-
 
 ### Score by priority rank
 
@@ -65,7 +60,6 @@ Analogy: a to-do list, where Priority 1 is your first priority.
 Pros: easy to understand what the team will work on and in what order; compatible with many bug trackers, todo list apps, and task management tools.
 
 Misguided: some teams use Priority 0 (P0) to mean emergency alert or release blocker.
-
  
 ### Score by severity of impact
 
@@ -77,7 +71,6 @@ Benefits: easy to understand in terms of business impact; can use real world ana
 
 Misguided: some teams reverse the scale and use Severity 1 (catastrophic impact) to 5everity 5 (mimimal). We discourage this because it's reversed.
 
-
 ### Score by magnitude of damage
 
 Example: Magnitude 1 (minor damage) to 10 (catastrophic damage).
@@ -85,7 +78,6 @@ Example: Magnitude 1 (minor damage) to 10 (catastrophic damage).
 Analogy: the Richter earthquake scale from 1 (minor damage) to 10 (permanent total destruction).
 
 Benefits: easy to understand in terms of customer impact; can use real world analogies; good for brightness coding from light to dark; different evaluators can assess severity in each of their own perspectives, independent of what to work on first.
-
 
 ### Score by size name
 
@@ -97,9 +89,9 @@ Benefits: easy to understand approximately how much work needs to be done.
 
 ### Score by harm grade
 
-Medical practitioners use a harm grade to rank patient issues: No harm, Low harm, Moderate harm, Severe harm, Fatal.
+Medical practitioners use a harm grade to rank patient issues: No Harm, Low Harm, Moderate Harm, Severe Harm, Fatal.
 
-If you're interested in this score, you can read more about it searching UK NHS Learn from Patient Safety Events (LFPSE).
+If you're interested in this score, and the specifics of each harm grade, then you can read more about it searching UK NHS Learn from Patient Safety Events (LFPSE).
 
 ### Score by level of danger
 
@@ -115,7 +107,6 @@ Level D – Minor: Failure slightly reduces the safety margin or slightly increa
 
 Level E – No Effect: Failure has no impact on safety, aircraft operation, or crew workload.
 
-
 ### Score by MoSCoW requirement
 
 Example: MoSCoW is a mnemonic for "must", "should", "could", "won't". A feature is "must have", "should have", "could have", "won't have" (or "would have").
@@ -126,7 +117,6 @@ Benefits: the plain English wording of the categories is valuable in getting sta
 
 Note: We prefer to use the word "would" (instead of "won't") because in our experience with stakeholders, "would" shows that an issue is still possible to be included in the future if something changes; we say "would if X".
 
-
 ### Score by frequency rate
 
 Example: "Frequency 1%" means 1% of use is affected, "Frequency 100%" means 100% of use is affected.
@@ -134,7 +124,6 @@ Example: "Frequency 1%" means 1% of use is affected, "Frequency 100%" means 100%
 Analogy: the rate at which something occurs or is repeated over a particular period of time or in a given sample.
 
 Benefits: measures how often the issue happens; can be a rate phrase such as "20 times per day"; can be a summary word such as "always", "often", "sometimes", "seldom", "never"; can be a percentage such as "80% of use is affected".
-
 
 ### Score by combination
 
@@ -153,7 +142,6 @@ Suppose an important customer is coming into the office in an hour to sign a con
 * Design team says MoSCoW "must" because it must be fixed.
 
 * Quality team says Frequency 2% because inspection discovered typos in 2% of customer names.
-
 
 ## Score discussion
 
@@ -177,33 +165,31 @@ This section has score discussion notes. The quotes are excerpted, synthesized, 
 
 "We use a single priority field. The tester uses a heuristic to assign an initial priority (e.g., crashes are P1, cosmetic are P5). The developer uses this to prioritize which bugs to triage first, and when they've determined a new priority based on customer experience combined with app behaviour, they replace the old priority score with the new priority score. If we really needed to go back and check what the tester assigned, then we use the "history" or "revision" feature in our bug tracking app."
 
-
 ## Issue template
 
 An issue template can help a team cover important areas efficiently and succinctly.
 
 Our issue template uses:
 
-  * Chief Complaint (CC): summarize the problem as reported by the affected person.
+* Chief Complaint (CC): summarize the problem as reported by the affected person.
 
-  * Participants (Pt): who is involved, such as users, employees, partners, specific people, etc.
+* Participants (Pt): who is involved, such as users, employees, partners, specific people, etc.
 
-  * Symptoms (Sx): what is going wrong on the surface, such as the users' perspectives, or triggers, or alerts, etc.
- 
-  * Fractures (Fx): what is broken, such as a failed part, or crashed application, or stuck process, etc.
+* Symptoms (Sx): what is going wrong on the surface, such as the users' perspectives, or triggers, or alerts, etc.
 
-  * History (Hx): relevant background information, such as prior similar issues, or reports, or references, etc.
+* Fractures (Fx): what is broken, such as a failed part, or crashed application, or stuck process, etc.
 
-  * Investigations (Ix): what we're doing to research the issue, such as the steps we're taking, or tests we're trying, etc.
+* History (Hx): relevant background information, such as prior similar issues, or reports, or references, etc.
 
-  * Diagnosis (Dx): what is going wrong under the surface, such as the root causes, or cascading causes, etc.
+* Investigations (Ix): what we're doing to research the issue, such as the steps we're taking, or tests we're trying, etc.
 
-  * Treatments (Tx): what we're doing to make it better, such as action items, to do lists, mitigations, etc.
+* Diagnosis (Dx): what is going wrong under the surface, such as the root causes, or cascading causes, etc.
 
-  * Prognosis (Px): what is the prediction, such as a forecast, potential outcomes, changes in effects, etc.
+* Treatments (Tx): what we're doing to make it better, such as action items, to do lists, mitigations, etc.
+
+* Prognosis (Px): what is the prediction, such as a forecast, potential outcomes, changes in effects, etc.
 
 Our issue template is this file: [TEMPLATE.md](TEMPLATE.md)
-
 
 ## Postmortem triggers
 
@@ -219,14 +205,12 @@ Postmortem triggers can include:
 
  * Any request by a stakeholder for a postmortem, or review, or mitigation.
 
-
 ## Blameless postmortems
 
 Blameless postmortems focus on the incident's symptoms, causes, and treatments, rather than focus on blaming a person or a group of people.
 
 Blameless postmortems start by affirming that everyone has good intentions, and does their best they can at the time, with the information they have at the time.
 
-
-# Posts about issues, incidents, postmortems, etc.
+## Posts about issues, incidents, postmortems, and more
 
 * [Post-Mortem Meeting Template and Tips by Brett Harned at TeamGannt on 2017-09-05](https://www.teamgantt.com/blog/post-mortem-meeting-template-and-tips)
