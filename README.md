@@ -2,14 +2,14 @@
 
 Issues come in many flavors, for example feature requests, bug reports, customer complaints, security alerts, team retrospectives, etc.; this page describes how our team uses issues, and how we communicate about them.
 
-* [What is an issue?](#what-is-an-issue)
-* [Public issue or private issue?](#public-issue-or-private-issue)
-* [Score](#score)
-* [Score discussion](#score-discussion)
-* [Issue template](#issue-template)
-* [Postmortem triggers](#postmortem-triggers)
-* [Blameless postmortems](#blameless-postmortems)
-* [Posts about issues, incidents, postmortems, and more](#posts-about-issues-incidents-postmortems-and-more)
+- [What is an issue?](#what-is-an-issue)
+- [Public issue or private issue?](#public-issue-or-private-issue)
+- [Score](#score)
+- [Score discussion](#score-discussion)
+- [Issue template](#issue-template)
+- [Postmortem triggers](#postmortem-triggers)
+- [Blameless postmortems](#blameless-postmortems)
+- [Posts about issues, incidents, postmortems, and more](#posts-about-issues-incidents-postmortems-and-more)
 
 ## What is an issue?
 
@@ -17,11 +17,11 @@ For our teams the word "issue" is a generic term such as:
 
 Examples:
 
-* A feature request
-* A bug report
-* A customer complaint
-* A security alert
-* A team retrospective
+- A feature request
+- A bug report
+- A customer complaint
+- A security alert
+- A team retrospective
 
 ## Public issue or private issue?
 
@@ -60,7 +60,7 @@ Analogy: a to-do list, where Priority 1 is your first priority.
 Pros: easy to understand what the team will work on and in what order; compatible with many bug trackers, todo list apps, and task management tools.
 
 Misguided: some teams use Priority 0 (P0) to mean emergency alert or release blocker.
- 
+
 ### Score by severity of impact
 
 Example: Severity 1 (minimal impact) to 5 (catastrophic impact).
@@ -71,11 +71,11 @@ Benefits: easy to understand in terms of business impact; can use real world ana
 
 Misguided: some teams reverse the scale and use Severity 1 (catastrophic impact) to 5everity 5 (mimimal). We discourage this because it's reversed.
 
-### Score by magnitude of damage
+### Score by magnitude of energy
 
-Example: Magnitude 1 (minor damage) to 10 (catastrophic damage).
+Example: Magnitude 1 (minimal energy) to 10 (catastrophic energy).
 
-Analogy: the Richter earthquake scale from 1 (minor damage) to 10 (permanent total destruction).
+Analogy: the earthquake score using Moment Magnitude Scale from 1 (minimal energy and typically minimal damage) to 10 (catastrophic energy and typically catastrophic damage).
 
 Benefits: easy to understand in terms of customer impact; can use real world analogies; good for brightness coding from light to dark; different evaluators can assess severity in each of their own perspectives, independent of what to work on first.
 
@@ -131,17 +131,17 @@ Example: score an issue by a combination of priority, severity, magnitude, size,
 
 Suppose an important customer is coming into the office in an hour to sign a contract, and the sales team finds a misspelling in the customer's company name on the website.
 
-* Sales team says Priority 1 meaning work on it first.
+- Sales team says Priority 1 meaning work on it first.
 
-* Product team says Severity 1 (minimal impact) because a typo is trivial and doesn't affect others.
+- Product team says Severity 1 (minimal impact) because a typo is trivial and doesn't affect others.
 
-* Marketing team says Magnitude 3 (some damage) because the typo ended up on presenation collateral.
+- Marketing team says Magnitude 3 (some damage) because the typo ended up on presenation collateral.
 
-* Project manager says size "small" because the work estimate is tiny.
+- Project manager says size "small" because the work estimate is tiny.
 
-* Design team says MoSCoW "must" because it must be fixed.
+- Design team says MoSCoW "must" because it must be fixed.
 
-* Quality team says Frequency 2% because inspection discovered typos in 2% of customer names.
+- Quality team says Frequency 2% because inspection discovered typos in 2% of customer names.
 
 ## Score discussion
 
@@ -171,23 +171,23 @@ An issue template can help a team cover important areas efficiently and succinct
 
 Our issue template uses:
 
-* Chief Complaint (CC): summarize the problem as reported by the affected person.
+- Chief Complaint (CC): summarize the problem as reported by the affected person.
 
-* Participants (Pt): who is involved, such as users, employees, partners, specific people, etc.
+- Participants (Pt): who is involved, such as users, employees, partners, specific people, etc.
 
-* Symptoms (Sx): what is going wrong on the surface, such as the users' perspectives, or triggers, or alerts, etc.
+- Symptoms (Sx): what is going wrong on the surface, such as the users' perspectives, or triggers, or alerts, etc.
 
-* Fractures (Fx): what is broken, such as a failed part, or crashed application, or stuck process, etc.
+- Fractures (Fx): what is broken, such as a failed part, or crashed application, or stuck process, etc.
 
-* History (Hx): relevant background information, such as prior similar issues, or reports, or references, etc.
+- History (Hx): relevant background information, such as prior similar issues, or reports, or references, etc.
 
-* Investigations (Ix): what we're doing to research the issue, such as the steps we're taking, or tests we're trying, etc.
+- Investigations (Ix): what we're doing to research the issue, such as the steps we're taking, or tests we're trying, etc.
 
-* Diagnosis (Dx): what is going wrong under the surface, such as the root causes, or cascading causes, etc.
+- Diagnosis (Dx): what is going wrong under the surface, such as the root causes, or cascading causes, etc.
 
-* Treatments (Tx): what we're doing to make it better, such as action items, to do lists, mitigations, etc.
+- Treatments (Tx): what we're doing to make it better, such as action items, to do lists, mitigations, etc.
 
-* Prognosis (Px): what is the prediction, such as a forecast, potential outcomes, changes in effects, etc.
+- Prognosis (Px): what is the prediction, such as a forecast, potential outcomes, changes in effects, etc.
 
 Our issue template is this file: [TEMPLATE.md](TEMPLATE.md)
 
@@ -197,13 +197,13 @@ Postmortem triggers can make it easy and fast for a team to know when to do a po
 
 Postmortem triggers can include:
 
- * Any user-visible issues, such as unexpected outages or errors.
+- Any user-visible issues, such as unexpected outages or errors.
 
- * Any on-demand intervention, such as by engineers or executives.
+- Any on-demand intervention, such as by engineers or executives.
 
- * Any manual incident discovery, because this shows we need monitoring.
+- Any manual incident discovery, because this shows we need monitoring.
 
- * Any request by a stakeholder for a postmortem, or review, or mitigation.
+- Any request by a stakeholder for a postmortem, or review, or mitigation.
 
 ## Blameless postmortems
 
@@ -213,4 +213,4 @@ Blameless postmortems start by affirming that everyone has good intentions, and 
 
 ## Posts about issues, incidents, postmortems, and more
 
-* [Post-Mortem Meeting Template and Tips by Brett Harned at TeamGannt on 2017-09-05](https://www.teamgantt.com/blog/post-mortem-meeting-template-and-tips)
+- [Post-Mortem Meeting Template and Tips by Brett Harned at TeamGannt on 2017-09-05](https://www.teamgantt.com/blog/post-mortem-meeting-template-and-tips)
